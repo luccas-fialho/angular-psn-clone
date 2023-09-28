@@ -1,0 +1,9 @@
+<div class="home__container">
+	<app-card
+		*ngFor="let gameInfo of games"
+		gameCover="{{ gameInfo.gameCover }}"
+		gameLabel="{{ gameInfo.gameLabel }}"
+		gameType="{{ gameInfo.gameType }}"
+		gamePrice="{{ gameInfo.gamePrice }}"
+	></app-card>
+</div>
